@@ -1,0 +1,446 @@
+﻿@font-face{
+    font-family:"Gothm Rounded Bold";
+    src:url(fonts/gothamrounded-bold-webfont.ttf);
+}
+@font-face{
+    font-family:"Gothm Rounded Light";
+    src:url(fonts/gothamrounded-light-webfont.ttf);
+}
+@font-face{
+    font-family:"Gothm Rounded Medium";
+    src:url(fonts/gothamrounded-medium-webfont.ttf);
+}
+
+body {
+    background-color:white;
+    margin:0;
+    padding:0;
+}
+/*HEADER*/
+/*nav*/
+header{
+    background-image:url("imgs/backFirst.png") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:745px;
+    color:white; 
+
+}
+header nav{
+    padding-left:26px;
+    width:764px;
+    margin:0 auto;
+    padding-top:42px;
+}
+header ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+  
+}
+header li{
+      display:inline-block;
+       margin:0; 
+       padding:0;
+        vertical-align:middle;
+}
+header li:first-child{
+    margin-right:61px;
+}
+header li img{
+    margin-left:100px;
+    margin-right:92px;
+    color:white;
+}
+header li:last-child{
+    margin-left:73px;
+}
+header li a{
+    display:block;
+    font-family:"Gothm Rounded Bold";
+    text-decoration:none;
+    text-transform:uppercase;
+    /*padding-top:22px;*/
+    font-size:110%;     
+    margin-top:15px;
+    color:white;
+    letter-spacing:1px;
+} 
+/*desc*/
+header h1{
+    display:block;
+       font-family:"Gothm Rounded Bold";
+    letter-spacing:5px;
+    word-spacing:3px;
+    padding-left:29px;
+    width:528px;
+    margin:0 auto;
+        margin-top:228px;
+    text-transform:uppercase;
+    font-size:225%;
+}
+header p {
+     display:block;
+     width:328px;
+     margin:0 auto;
+     letter-spacing:2px;
+     word-spacing:1px;
+     font-size:125%;
+}
+/*button*/
+header button{
+    display:block;
+    font-family:"Gothm Rounded Bold";
+     color:white;
+    width:166px;
+    background-color:#16a085;
+
+    margin:0 auto;
+        margin-top:27px;
+    border-radius:5px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:75%;
+    border:none;
+    height:49px;
+}
+header button:hover{
+    cursor:pointer;
+}
+#socialIcons{
+
+    display:flex;
+    justify-content:space-between;
+    width:98px;
+    margin:0 auto;
+        margin-top:220px;
+    color:white;
+}
+#socialIcons i{
+    display:block;
+    font-size:24px;
+}
+
+/*SECTIONS ELEMENETS*/
+section h3{
+    font-family:"Gothm Rounded Bold";
+    color:#16a085;
+    letter-spacing:4px;
+    line-height:22px;
+    text-transform:uppercase;
+    font-size:100%;
+    
+}
+section p{
+    display block;
+    margin-left:-3px;
+    margin-top:38px;
+    letter-spacing:2px;
+    line-height:24px;
+    font-size:75%;
+    width:435px;
+    font-family:"Gothm Rounded Light";
+}
+section button{
+    display:block;
+    width:191px;
+    height:49px;
+    margin-top:43px;
+
+    font-family:"Gothm Rounded Bold";
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    
+    background-color:#16a085;
+    border-radius:5px;
+    border:none;
+}
+
+/*SECTION SECOND*/
+#Second{
+       background-color:#f5f6f7 ;
+          height:492px;
+}
+#Second div{
+    height:492px;
+    width:1280px;
+    margin:0 auto;
+    background-image:url("imgs/handPhone.png") ;
+    background-repeat:no-repeat;
+    background-position-x:80%;
+    background-position-y:91px;
+ 
+} 
+#Second article{
+    width:448px;
+    padding-left:130px;
+    padding-top:92px;
+}
+
+/*SECTION THIRD*/
+#Third{
+    height:433px; 
+    width:1084px;
+    margin:0 auto;
+    padding-left:49px;
+    margin-top:125px;
+}
+#Third img{
+    display:inline-block;
+    margin-top:20px;    
+
+}
+#Third article {
+    display:inline-block;
+    margin-left:326px;
+      vertical-align:top;
+}
+#Third p{
+    margin-top:35px;
+    margin-left:2px;
+        line-height:22px;
+}
+#Third button{
+    margin-top:38px;
+    margin-left:0px;    
+}
+#Third span{
+    display:block;
+    font-family:"Gothm Rounded Bold";
+    margin-top:40px;
+}
+#Third i{
+    font-size:160%;
+    margin-right : 21px;
+}
+
+/*SECTION FOURTH*/
+#Fourth{
+    background-color:#f5f6f7;
+   
+}
+#arrows{
+    text-align:right;
+}
+#arrows i {
+    font-size:175%;
+}
+#arrows i:first-child{
+    margin-right:16px;
+}
+#wrapper{
+    padding-top:93px;
+    width:1024px;
+    margin:0 auto;
+    height:391px;
+}
+#Fourth article{
+    text-align:center;
+    width:190px;
+    display:inline-block;
+    vertical-align:top;
+    margin-top:44px;
+    margin-left:-5px;
+}
+#Fourth h3{
+    font-size:90%;
+    margin-top:21px;
+}
+
+#Fourth p{
+    width:100%;
+    margin-top:11px;
+    font-size:60%;
+        line-height:14px;
+        margin-left:0;
+}
+#Fourth article img{
+    width:56px;
+}
+#imagesWrapper{
+    display:inline-block;
+    margin-left:69px;
+}
+#imagesWrapper img{
+    display:inline-block;
+}
+#imagesWrapper img:first-child{
+    padding-right:20px;
+}
+/*SECTION Fifthy*/
+#Fifthy{
+    height:789px;
+    background-image:url("imgs/livello.png");
+    background-repeat:no-repeat;
+   background-size:cover;
+}
+#Fifthy>div{
+    margin:0 auto;
+    padding-top:325px;
+    width:474px;
+}
+#Fifthy h3{
+    font-family:"Gothm Rounded Bold";
+    color:white;
+    text-transform:uppercase;
+    font-size:145%;
+}
+#sendMail{
+    margin-left:64px;
+    margin-top:35px;
+}
+#inputEmail{
+       display:inline-block;
+           vertical-align:top;
+    width:280px;
+    height:58px;
+    font-size:100%;
+      border:none;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px; 
+}
+input[type="text"]::-webkit-input-placeholder { 
+        font-family:"Gothm Rounded Medium";
+    padding-left:22px;   
+     letter-spacing:2px;
+     height:58px;
+   
+}
+#submitEmail{
+  
+    display:inline-block;
+    margin-left:-5px;
+    vertical-align:top;
+    margin-top:0;
+  height:60px;
+  width:63px;
+  color:white;
+  background-color:#16a085;
+  border:none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px; 
+    font-size:21px;
+}
+
+
+/*SECTION Seventh*/
+#Seventh{
+  background-color:#f5f6f7;
+}
+#Seventh article{
+    margin:0 auto;
+        width:842px;
+      font-family:"Gothm Rounded Bold";
+    padding-top:67px;
+    height:331px;
+        text-align:center;
+}
+#Seventh h2{
+    text-align:center;
+    color:#373737;
+    text-transform:uppercase;
+    font-size:125%;
+    letter-spacing:3px;
+    margin-bottom:5px;
+}
+#Seventh p{
+    width:100%;
+    margin-top:0px;
+    font-size:70%;
+        font-family:"Gothm Rounded Medium";
+    text-transform:uppercase;
+    line-height:22px;
+}
+.download{
+    margin-top:31px;
+    color:white;
+    height:56px;
+    width:314px;
+    padding-left:0;
+    text-align:left;
+    display:inline-block;
+}
+.download:first-of-type{
+        margin-left:14px; 
+        margin-right:4px;  
+}
+.download div{
+    padding-top:20px;
+    padding-bottom:28px;
+    display:inline-block;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    width:218px ;
+    text-align:left;
+    height:8px;
+    background-color:#1abc9c;
+    padding-left:24px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+}
+.download i{
+    margin-left:-5px;  
+    height:40px;
+    display:inline-block;
+    width:56px;
+    padding-top:16px;
+    text-align:center;
+    background-color:#16a085;
+    font-size:160%;
+    vertical-align:bottom;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+}
+
+/*--Footer--*/
+footer{
+      height:130px;
+      width:1025px;
+      font-family:"Gothm Rounded Bold";
+      letter-spacing:2px;
+      margin:0 auto;
+      display:flex;
+      justify-content:space-between;
+}
+
+footer div{
+    display:inline-block;
+    margin-top:37px;
+}
+footer ul{
+    list-style-type:none;
+    margin-bottom:0px;
+    padding-left:0;
+    margin-top:0;
+
+}
+footer li{
+    display:inline-block;
+    text-transform:uppercase;
+    padding-right:7px;
+    padding-left:7px;
+    border-right:1px solid #16a085;
+    font-size:80%;
+    letter-spacing:3px;
+}
+footer h4{
+    margin-top:17px;
+    letter-spacing:2px;
+    font-size:90%;
+    word-spacing:-1px;
+}
+footer li:first-of-type{
+    padding-left:0;
+}
+footer li:last-of-type{
+    border-right:none;
+    padding-right:0;
+}
+
+footer img{
+    margin-top:36px;
+    display:inline-block;
+    height:55px;
+}
