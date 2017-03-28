@@ -17,7 +17,6 @@ body {
     padding:0;
 }
 /*HEADER*/
-/*nav*/
 header{
     background-image:url("imgs/backFirst.png") ;
     background-repeat: no-repeat;
@@ -25,7 +24,6 @@ header{
     width:100%;
     height:745px;
     color:white; 
-
 }
 header nav{
     padding-left:26px;
@@ -37,7 +35,6 @@ header ul{
     margin:0;
     padding:0;
     list-style-type:none;
-  
 }
 header li{
       display:inline-block;
@@ -66,8 +63,13 @@ header li a{
     margin-top:15px;
     color:white;
     letter-spacing:1px;
+        transform:scale(1);
+        transition:transform 1.4s;  
 } 
-/*desc*/
+header li a:hover{
+    transform:scale(1.3);
+    transition:transform 1.5s;
+}
 header h1{
     display:block;
        font-family:"Gothm Rounded Bold";
@@ -81,12 +83,13 @@ header h1{
     font-size:225%;
 }
 header p {
+     font-family:"Gothm Rounded Medium";
      display:block;
      width:328px;
      margin:0 auto;
      letter-spacing:2px;
      word-spacing:1px;
-     font-size:125%;
+     font-size:100%;
 }
 /*button*/
 header button{
@@ -104,9 +107,13 @@ header button{
     font-size:75%;
     border:none;
     height:49px;
+    opacity:1;
+        transition:opacity 0.8s;
 }
 header button:hover{
     cursor:pointer;
+    opacity:0.6;
+    transition:opacity 1s;
 }
 #socialIcons{
 
@@ -120,10 +127,17 @@ header button:hover{
 #socialIcons i{
     display:block;
     font-size:24px;
+    transform:scale(1);
+    transition:transform 0.5s;
+}
+#socialIcons i:hover{
+    transform:scale(1.4);
+    transition:transform 0.9s;
+    cursor:pointer;
 }
 
 /*SECTIONS ELEMENETS*/
-section h3{
+.article h3{
     font-family:"Gothm Rounded Bold";
     color:#16a085;
     letter-spacing:4px;
@@ -131,9 +145,8 @@ section h3{
     text-transform:uppercase;
     font-size:100%;
     
-}
-section p{
-    display block;
+}   
+.article p{
     margin-left:-3px;
     margin-top:38px;
     letter-spacing:2px;
@@ -142,7 +155,7 @@ section p{
     width:435px;
     font-family:"Gothm Rounded Light";
 }
-section button{
+.article button{
     display:block;
     width:191px;
     height:49px;
@@ -156,6 +169,14 @@ section button{
     background-color:#16a085;
     border-radius:5px;
     border:none;
+
+    opacity:1;
+    transition:opacity 1s;
+}
+.article button:hover{
+    cursor:pointer;
+    opacity:0.7;
+    transition:opacity 0.7s;
 }
 
 /*SECTION SECOND*/
@@ -169,11 +190,10 @@ section button{
     margin:0 auto;
     background-image:url("imgs/handPhone.png") ;
     background-repeat:no-repeat;
-    background-position-x:80%;
-    background-position-y:91px;
+    background-position:80% 91px;
  
 } 
-#Second article{
+#Second section{
     width:448px;
     padding-left:130px;
     padding-top:92px;
@@ -192,7 +212,7 @@ section button{
     margin-top:20px;    
 
 }
-#Third article {
+#Third section {
     display:inline-block;
     margin-left:326px;
       vertical-align:top;
@@ -214,6 +234,12 @@ section button{
 #Third i{
     font-size:160%;
     margin-right : 21px;
+    transition: transform 0.7s;
+}
+#Third i:hover{
+    cursor:pointer;
+    transform:scaleY(1.5);
+    transition:transform 0.8s ;
 }
 
 /*SECTION FOURTH*/
@@ -226,9 +252,15 @@ section button{
 }
 #arrows i {
     font-size:175%;
+    transition:transform 0.6s ;
 }
 #arrows i:first-child{
     margin-right:16px;
+}
+#arrows i:hover{
+        cursor:pointer;
+    transform:scaleY(1.5);
+    transition:transform 0.8s ;
 }
 #wrapper{
     padding-top:93px;
@@ -236,7 +268,7 @@ section button{
     margin:0 auto;
     height:391px;
 }
-#Fourth article{
+#Fourth section{
     text-align:center;
     width:190px;
     display:inline-block;
@@ -256,7 +288,7 @@ section button{
         line-height:14px;
         margin-left:0;
 }
-#Fourth article img{
+#Fourth section img{
     width:56px;
 }
 #imagesWrapper{
@@ -329,7 +361,7 @@ input[type="text"]::-webkit-input-placeholder {
 #Seventh{
   background-color:#f5f6f7;
 }
-#Seventh article{
+#Seventh section{
     margin:0 auto;
         width:842px;
       font-family:"Gothm Rounded Bold";
@@ -362,21 +394,26 @@ input[type="text"]::-webkit-input-placeholder {
     text-align:left;
     display:inline-block;
 }
+.download:hover{
+    cursor:pointer;
+    opacity:0.7;
+    transition:opacity 0.7s;
+}
 .download:first-of-type{
         margin-left:14px; 
         margin-right:4px;  
 }
 .download div{
-    padding-top:20px;
-    padding-bottom:28px;
+    padding-top:18px;
+    padding-bottom:30px;
     display:inline-block;
     text-transform:uppercase;
-    letter-spacing:2px;
+    letter-spacing:3px;
     width:218px ;
     text-align:left;
     height:8px;
     background-color:#1abc9c;
-    padding-left:24px;
+    padding-left:28px;
     border-bottom-left-radius:5px;
     border-top-left-radius:5px;
 }
@@ -404,7 +441,6 @@ footer{
       display:flex;
       justify-content:space-between;
 }
-
 footer div{
     display:inline-block;
     margin-top:37px;
@@ -424,6 +460,17 @@ footer li{
     border-right:1px solid #16a085;
     font-size:80%;
     letter-spacing:3px;
+     
+}
+footer a{
+    display:block;
+       transition:transform 0.7s;
+}
+footer a:hover{
+    
+        cursor:pointer;
+    transform:translateY(-15px);
+    transition:transform 1s;
 }
 footer h4{
     margin-top:17px;
@@ -438,7 +485,6 @@ footer li:last-of-type{
     border-right:none;
     padding-right:0;
 }
-
 footer img{
     margin-top:36px;
     display:inline-block;
